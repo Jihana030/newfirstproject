@@ -85,12 +85,12 @@
   const signUp = document.querySelector('.signUp');
   const url = '';
   signUp.addEventListener('click', (e) => {
-    window.location.href = 'http://127.0.0.1:5500/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-html-%EC%A7%80%EC%9B%90/index-sign_up.html';
+    window.location.href = 'index-sign_up.html';
   });
   //로그인 누르면 메인 페이지
   const login = document.querySelector('.login');
   login.addEventListener('click', (e) => {
-    window.location.href = 'http://127.0.0.1:5500/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-html-%EC%A7%80%EC%9B%90/index-mypage.html';
+    window.location.href = 'index-mypage.html';
     // window.Location.reload(url);
   });
   //비밀번호찾기 누르면 놀리기
