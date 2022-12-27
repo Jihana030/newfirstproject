@@ -83,7 +83,7 @@
           const $button = document.querySelector('.detail-slider-list-btn')
           console.log(jsonlist)
           
-          $button.setAttribute('href',"detailpage_a.html")
+          $button.setAttribute('href',"index.html")
           $button.onclick = function(){
             sessionStorage.setItem('list', JSON.stringify(jsonlist));
             if(jsonlist[0].category === 'Donut'){
